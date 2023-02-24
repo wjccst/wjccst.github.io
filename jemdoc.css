@@ -369,7 +369,7 @@ table.imgtable, table.imgtable td {
 table.paperimgtable, table.paperimgtable td {
     border: none;
     text-align: left;
-	vertical-align: middle;
+	vertical-align: bottom;
 }
 
 table.schoolimgtable, table.schoolimgtable td {
