@@ -365,3 +365,15 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+table.paperimgtable, table.paperimgtable td {
+    border: none;
+    text-align: left;
+	vertical-align: top;
+}
+
+table.schoolimgtable, table.schoolimgtable td {
+    border: none;
+    text-align: left;
+	vertical-align: top;
+}
