@@ -1,82 +1,269 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jiangchang Wu&#39;s CV | Jiangchang Wu @ NJU-CS</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/fonts.css" />
-    <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/github.min.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="IE=5.0000" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Jiangchang Wu's home page">
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/imgs/Luffy.jpg" type="image/jpg" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/imgs/Luffy.jpg" type="image/jpg" />
 
-  </head>
+    <link href="./profile.css" rel="stylesheet" type="text/css">
+    <title>Yuwei Niu's Homepage</title>
+    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001">
+        <style>
+        body {
+            font-family: Georgia, serif;
+            color: #111;
+            width: 850px;
+        }
 
-  
+        .profile-pic {
+            width: 180px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
 
-  <body>
+        .profile-pic:hover {
+            transform: scale(1.04);
+        }
 
-<div class="article-meta">
-  <span class="title">
-    <h1>Jiangchang Wu (吴江昶)</h1>
-    <h3>Ph.D candidate | School of Computer Science, NJU</h3>
-  </span>
-</div>
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-<main>
+        .contact-box {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 10px 12px;
+            display: inline-block;
+            margin-top: 0.6em;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            font-size: 0.95em;
+        }
 
-<h3 id="biography">Biography</h3>
+        .contact-box img {
+            width: 16px;
+            vertical-align: middle;
+            margin-right: 6px;
+            opacity: 0.9;
+        }
 
-<div style="display: flex; align-items: flex-start;">
-  <div style="text-align: center; margin-right: 10px;">
-    <img src="./materials/photo.jpg" alt="Image" style="width: 1000px; height: auto;">
-    <!-- <div style="font-size: 12px; color: #555;">📍 Delft, The Netherlands</div> -->
-  </div>
-  <p style="margin: 0;">I am currently a Ph.D. candidate in the School of Computer Science at Nanjing University (NJU), advised by <a href="https://yangyibiao.github.io/" target="_blank">Prof. Yibiao Yang</a> and <a href="https://cs.nju.edu.cn/xulei/" target="_blank">Prof. Lei Xu</a>. In June 2021, I obtained my M.Sc. from the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST) under the supervision of <a href="https://yangyibiao.github.io/" target="_blank">Prof. Yibiao Yang</a> and Prof. Bin Yuan. Prior to that, I received my B.Sc. from the School of Computer Science and Artificial Intelligence at Wuhan University of Technology (WUT) in June 2019.<br />
-  My research focuses on the analysis and testing of system software. If you are interested in my work or would like to collaborate, please feel free to contact me at jiangchangwu {AT} smail {DOT} nju {DOT} edu {DOT} cn.</p>
-</div>
+        .contact-box a {
+            margin-right: 16px;
+        }
 
-<h3 id="publications">Publications</h3>
-<i><a href="https://scholar.google.com/citations?user=SUMNbxsAAAAJ&hl=zh-CN" target="_blank">[Google Scholar]</a></i>
+        .emoji {
+            font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, sans-serif;
+            font-size: 1.1em;
+        }
+
+        .publication-entry {
+            display: flex;
+            align-items: flex-start;
+            background: #fdfdfd;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border: 1px solid #eee;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+        }
+
+        .publication-entry img {
+            width: 200px;
+            height: 100px;
+            border-radius: 8px;
+            margin-right: 16px;
+            object-fit: cover;
+        }
+
+        .pub-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        h1,
+        h2 {
+            color: #263054;
+        }
+
+        h2 {
+            border-bottom: 1px solid #aaa;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="layout-content" style="margin: 25px; max-width: 800px;">
+        <div class="top-section">
+            <div style="max-width: 70%;">
+                <h1>Jiangchang Wu</h1>
+                <h3><span class="emoji">🎓</span> Ph.D candidate</h3>
+
+                <p style="margin-bottom: 0.4em;">
+                    <img src="assets/imgs/school.png" alt="University"
+                        style="width:16px; vertical-align:middle; margin-right:5px;">
+                    <a href="https://www.nju.edu.cn//" target="_blank">Nanjing University</a>
+                </p>
+                <p style="margin-top: 0;">
+                    <img src="assets/imgs/location.png" alt="Location"
+                        style="width:16px; vertical-align:middle; margin-right:5px;">
+                    Nanjing, Jiangsu, China
+                </p>
+
+                <div class="contact-box">
+                    <img src="assets/imgs/envelope.png" alt="Email">
+                    <a href="mailto:jiangchangwu@smail.nju.edu.cn">jiangchangwu@smail.nju.edu.cn</a>
+
+                    <img src="assets/imgs/google.png" alt="Google Scholar">
+                    <a href="https://scholar.google.com/citations?user=SUMNbxsAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+                </div>
+            </div>
+            <div>
+                <img class="profile-pic" src="./assets/imgs/photo.jpg" alt="Profile Picture">
+            </div>
+        </div>
+
+        <div id="layout-content" style="margin-top: 25px;">
+<h2>About Me</h2>
+<p>
+    I am currently a Ph.D. candidate in the School of Computer Science at Nanjing University (NJU), advised by <a href="https://yangyibiao.github.io/" target="_blank">Prof. Yibiao Yang</a> and <a href="https://cs.nju.edu.cn/xulei/" target="_blank">Prof. Lei Xu</a>. In June 2021, I obtained my M.Sc. from the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST) under the supervision of <a href="https://yangyibiao.github.io/" target="_blank">Prof. Yibiao Yang</a> and Prof. Bin Yuan. Prior to that, I received my B.Sc. from the School of Computer Science and Artificial Intelligence at Wuhan University of Technology (WUT) in June 2019.<br />
+    My research focuses on the analysis and testing of system software. If you are interested in my work or would like to collaborate, please feel free to contact me!
+</p>
+<!-- <h2>Education</h2>
 <ul>
-  <li>
-    <p>Yibiao Yang, Qingyang Li, Maolin Sun, <strong>Jiangchang Wu</strong>, Yuming Zhou, <a href="#publications" target="_blank"><i>Using a Sledgehammer to Crack a Nut? Revisiting Automated Compiler Fault Isolation</i></a>. In the 48th IEEE/ACM International Conference on Software Engineering, 2026 <b>(ICSE 2026)</b>.</p>
-  </li>
-  <li>
-    <p>Maolin Sun, Yibiao Yang, <strong>Jiangchang Wu</strong>, Yuming Zhou, <a href="#publications" target="_blank"><i>Validating SMT Rewriters via Rewrite Space Exploration Supported by Generative Equality Saturation</i></a>. In the ACM SIGPLAN Conference on Object-oriented Programming, Systems, Languages & Applications, 2025 <b>(OOPSLA 2025)</b>.</p>
-  </li>
-  <li>
-    <p>Yibiao Yang, Qingyang Li, Maolin Sun, Jing Yang, <strong>Jiangchang Wu</strong>, Yuming Zhou, <a href="#publications" target="_blank"><i>Isolating Compiler Faults through Differentiated Compilation Configurations</i></a>. IEEE Transactions on Software Engineering, 2025 <b>(IEEE TSE)</b>.</p>
-  </li>
-  <li>
-    <p><strong>Jiangchang Wu</strong>, Yibiao Yang, Maolin Sun, Yuming Zhou, <a href="https://www.usenix.org/system/files/atc25-wu-jiangchang.pdf" target="_blank"><i>Unveiling Compiler Faults via Attribute-Guided Compilation Space Exploration</i></a>. In The 2025 USENIX Annual Technical Conference, 2025 <b>(USENIX ATC 2025)</b>.</p>
-  </li>
-  <li>
-    <p>Yibiao Yang, Maolin Sun, <strong>Jiangchang Wu</strong>, Qingyang Li, Yuming Zhou, <a href="./materials/ASPLOS2025.pdf" target="_blank"><i>Debugger Toolchain Validation via Cross-Level Debugging</i></a>. In the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, 2025 <b>(ASPLOS 2025)</b></p>
-  </li>
-  <li>
-    <p>Hongyan Gao, Yibiao Yang, Maolin Sun, <strong>Jiangchang Wu</strong>, Yuming Zhou, Baowen Xu, <a href="#publications" target="_blank"><i>Fuzzing Rust Compiler by Harnessing LLMs for Infilling Masked Real Programs</i></a>. In the 47th IEEE/ACM International Conference on Software Engineering, 2025 <b>(ICSE 2025)</b></p>
-  </li>
-  <li>
-    <p><strong>Jiangchang Wu</strong>, Yibiao Yang, Yuming Zhou, <a href="./materials/SANER2023.pdf" target="_blank"><i>Boosting Compiler Testing via Eliminating Test Programs with Long-Execution-Time</i></a>. In the 30th IEEE International Conference on Software Analysis, Evolution and Reengineering, 2023 <b>(SANER 2023)</b></p>
-  </li>
+    <li>
+        [2022-2026] B.Eng. in Computer Science, <b>Hongshen Stand-Out Class</b>, Chongqing University.
+    </li>
+</ul> -->
+
+
+<h2>Publications</h2>
+
+<ul style="list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Using a Sledgehammer to Crack a Nut? Revisiting Automated Compiler Fault Isolation</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;">Yibiao Yang, Qingyang Li, Maolin Sun, <u><b>Jiangchang Wu</b></u>, Yuming Zhou.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>In the 48th IEEE/ACM International Conference on Software Engineering, 2026</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>ICSE 2026</b></i> &nbsp;
+            [<a href="#publications">Paper</a>]
+        </div>
+    </li>
+    
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Validating SMT Rewriters via Rewrite Space Exploration Supported by Generative Equality Saturation</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;">Maolin Sun, Yibiao Yang, <u><b>Jiangchang Wu</b></u>, Yuming Zhou.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>In the ACM SIGPLAN Conference on Object-oriented Programming, Systems, Languages & Applications, 2025</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>OOPSLA 2025</b></i> &nbsp;
+            [<a href="#publications">Paper</a>]
+        </div>
+    </li>
+    
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Isolating Compiler Faults through Differentiated Compilation Configurations</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;">Yibiao Yang, Qingyang Li, Maolin Sun, Jing Yang, <u><b>Jiangchang Wu</b></u>, Yuming Zhou.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>IEEE Transactions on Software Engineering, 2025</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>IEEE TSE</b></i> &nbsp;
+            [<a href="#publications">Paper</a>]
+        </div>
+    </li>
+    
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Unveiling Compiler Faults via Attribute-Guided Compilation Space Exploration</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;"><u><b>Jiangchang Wu</b></u>, Yibiao Yang, Maolin Sun, Yuming Zhou.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>In The 2025 USENIX Annual Technical Conference, 2025</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>USENIX ATC 2025</b></i> &nbsp;
+            [<a href="https://www.usenix.org/system/files/atc25-wu-jiangchang.pdf">Paper</a>]
+        </div>
+    </li>
+    
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Debugger Toolchain Validation via Cross-Level Debugging</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;">Yibiao Yang, Maolin Sun, <u><b>Jiangchang Wu</b></u>, Qingyang Li, Yuming Zhou.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>In the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, 2025</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>ASPLOS 2025</b></i> &nbsp;
+            [<a href="#publications">Paper</a>]
+        </div>
+    </li>
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Fuzzing Rust Compiler by Harnessing LLMs for Infilling Masked Real Programs</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;">Hongyan Gao, Yibiao Yang, Maolin Sun, <u><b>Jiangchang Wu</b></u>, Yuming Zhou, Baowen Xu.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>In the 47th IEEE/ACM International Conference on Software Engineering, 2025</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>ICSE 2025</b></i> &nbsp;
+            [<a href="#publications">Paper</a>]
+        </div>
+    </li>
+    <li style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
+            <b>Boosting Compiler Testing via Eliminating Test Programs with Long-Execution-Time</b>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #777;"><u><b>Jiangchang Wu</b></u>, Yibiao Yang, Yuming Zhou.</a>
+        </div>
+        <div style="margin-top: 0px;">
+            <a style="color: #b70505c0;"><i>In the 30th IEEE International Conference on Software Analysis, Evolution and Reengineering, 2023</i></a>
+        </div>
+        <div style="margin-top: 2px;">
+            <i><b>SANER 2023</b></i> &nbsp;
+            [<a href="./assets/files/SANER2023.pdf">Paper</a>]
+        </div>
+    </li>   
 </ul>
 
-<h3 id="correspondence">Correspondence</h3>
-<p>Emails: jiangchangwu {AT} smail {DOT} nju {DOT} edu {DOT} cn<br />
-Address: Room 712, CS Building, Xianlin Campus of Nanjing University (南京大学仙林校区, 计算机楼, 712)</p>
-<br />
+<h2>Correspondence</h2>
+<p>
+    Address: Room 712, CS Building, Xianlin Campus of Nanjing University (南京大学仙林校区, 计算机楼, 712)</p>
+</p>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=240&t=tt&d=McEwb1zSSyFA0VBYHio8dguy8dgJUF8lrQ64OIOW6_4&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 
-<br />
-<!-- <footer style="font-size: 12px; color: gray; text-align: center;">
-  Theme adapted from <a href="https://github.com/hliangzhao/hliangzhao.github.io" target="_blank">Hailiang Zhao</a>. Thanks to the original author.
-</footer> -->
-</main>
-
-  </body>
+</body>
 </html>
-
