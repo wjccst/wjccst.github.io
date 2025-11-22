@@ -5,9 +5,10 @@
     <meta content="IE=5.0000" http-equiv="X-UA-Compatible">
     <meta name="description" content="Jiangchang Wu's home page">
     <meta name="robots" content="index, follow">
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/imgs/maltese.jpg" type="image/jpg" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/imgs/maltese.jpg" type="image/jpg" />
-
+    <link rel="icon" href="/assets/imgs/maltese.jpg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="/assets/imgs/maltese.jpg" />
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="/assets/imgs/maltese.jpg" type="image/jpeg" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="/assets/imgs/maltese.jpg" type="image/jpeg" />
     <link href="./profile.css" rel="stylesheet" type="text/css">
     <title>Jiangchang Wu's Homepage</title>
     <meta name="GENERATOR" content="MSHTML 11.00.10570.1001">
@@ -263,6 +264,27 @@
 <p>
     Address: Room 712, CS Building, Xianlin Campus of Nanjing University (南京大学仙林校区, 计算机楼, 712)</p>
 </p>
+
+<div style="margin-top: 40px; padding-top: 10px; border-top: 1px solid #eee; color: #666; font-size: 0.9em; text-align: right;">
+  Last updated: <span id="last-updated-date"></span>
+</div>
+
+<script>
+  (function() {
+      // 获取文档的最后修改时间
+      var date = new Date(document.lastModified);
+      
+      // 格式化日期为 YYYY-MM-DD
+      var year = date.getFullYear();
+      var month = ("0" + (date.getMonth() + 1)).slice(-2); // 补零
+      var day = ("0" + date.getDate()).slice(-2);          // 补零
+      
+      var formattedDate = year + "-" + month + "-" + day;
+      
+      // 显示在页面上
+      document.getElementById("last-updated-date").innerText = formattedDate;
+  })();
+</script>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=240&t=tt&d=McEwb1zSSyFA0VBYHio8dguy8dgJUF8lrQ64OIOW6_4&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 
